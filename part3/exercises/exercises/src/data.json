@@ -1,0 +1,38 @@
+{"planets":
+[
+  {
+   "planet": "Mars",
+   "distance": "140 mi miles",
+   "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+   "alt": "Mars"
+   },
+
+   {
+   "planet": "Mercury",
+   "distance": "91 mi miles",
+   "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/290px-Mercury_in_true_color.jpg",
+   "alt": "Mercury"
+   },
+
+   {
+   "planet": "Jupiter",
+   "distance": "528 mi miles",
+   "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg",
+   "alt": "Jupiter"
+   },
+
+   {
+   "planet": "Venus",
+   "distance": "148 mi miles",
+   "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/640px-Venus_2_Approach_Image.jpg",
+   "alt": "Venus"
+   },
+
+{
+   "planet": "Saturn",
+   "distance": "989 mi miles",
+   "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
+   "alt": "Saturn"
+   }
+]
+}
