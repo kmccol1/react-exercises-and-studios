@@ -6,11 +6,8 @@ export default function MyProjects () {
 
     let item = data.planets[index];
 
-   return(<><button onClick={() => {handleClick}}>Next</button><ol><li>{item.planet}</li><li>{item.distance}</li><li>{item.photoUrl}</li><li>{item.alt}</li></ol></>);
-}
-
-function handleClick() {
-   if (index < data.projects.length-1)
+    function handleClick() {
+   if (index < data.planets.length-1)
    {
       setIndex(index + 1);
    }
@@ -18,4 +15,10 @@ function handleClick() {
    {
       setIndex(0);
    }
+   }
+
+   return(<><button onClick={() => {handleClick}}>Next</button><ol><li>{item.planet}</li><li>{item.distance}</li><li><img src={item.photoUrl} alt={item.planet}/></li><li>{item.alt}</li></ol></>);
 }
+
+
+
